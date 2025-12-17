@@ -50,6 +50,17 @@ console.log(newArr); //changed,1,2,3,vikas,5
 
 console.log("A ", myArr)
 
+const myn1 = myArr.slice(1,3); //[1,2]
+console.log("B ", myn1);
+
+
+const myn2 = myArr.splice(1,3); //[1,2,3]
+console.log("C ", myn2);
+
+//after splice original array will change
+console.log("D ", myArr); //['changed', 'vikas', 5]
+
+
 
 
 
